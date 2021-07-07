@@ -1,0 +1,25 @@
+.Ecard{
+    margin: 60px 8px;
+    &:hover{
+        box-shadow: 2px 2px  #aaa;
+    }
+}
+
+.E-title{
+    position: absolute;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: -3px 3px #bbb;
+}
+
+.E-card-title{
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: -2px 2px rgb(93, 186, 240);
+}
+

@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import CarouselContainer from './components/carousel/carousel.component.jsx';
+import NavbarContainer from './components/navbar/navbar.component';
+import OverlayCards from './components/OverlayCards/overlayCards.component';
+import Econtainer from './components/FourEs/FourEs.component';
+import FooterContainer from './components/footer/footer.component';
+
+const App = () => {
+  return(
+    <div>
+      <NavbarContainer/>
+      <CarouselContainer/>
+      <OverlayCards/>
+      <Econtainer/>
+      <FooterContainer/>
     </div>
-  );
+  )
 }
 
 export default App;

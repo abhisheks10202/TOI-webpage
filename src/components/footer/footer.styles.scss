@@ -1,0 +1,55 @@
+.footer{
+    margin-top: 80px;
+    background-color: #222;
+    height: 500px;
+
+    .deck{
+        height: 100%;
+    }
+
+    .footer-card{
+        background-color: transparent;
+        padding: 40px 0;
+        height: 100%;
+        
+    }
+
+    .logo{
+        padding: 10px 20px 250px 20px;
+    }
+    
+    
+    .footer-links{
+
+        color: white;
+        
+        span{
+        color: rgb(10, 255, 1);
+    }}
+
+    .footer-text{
+        color: #bbb;
+
+        hr{
+            color: #bbb;
+        }
+    }
+
+    
+    
+    .rights{
+        background-color: black;
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0;
+        
+    }
+
+  
+
+
+}
+
+

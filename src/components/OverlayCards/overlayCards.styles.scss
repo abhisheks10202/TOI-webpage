@@ -1,0 +1,30 @@
+.Ocard{
+    position: absolute;
+    margin: 100px 0;
+    overflow: hidden;
+
+    img{
+        opacity: 0.7;
+       
+    }
+    .title{
+        font-size: 50px;
+        text-shadow: -3px 3px #bbb;
+    }
+    .blink{  
+        font-size: 2em;
+        animation-name: blink;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes blink{
+        0%   {color: red;}
+        25%  {color: orange;}
+        50%  {color: yellow;}
+        100% {color:rgb(15, 255, 27);}
+    }
+   
+}
+
+
