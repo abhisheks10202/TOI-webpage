@@ -5,7 +5,8 @@ import './navbar.styles.scss';
 
 const NavbarContainer = () => {
     return(
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbar">
+      <div className="navbar-container">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" className="navigation">
             <Navbar.Brand href="#home">Home</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -26,6 +27,7 @@ const NavbarContainer = () => {
               </Nav>
             </Navbar.Collapse>
         </Navbar>
+        </div>  
     )
 }
 
